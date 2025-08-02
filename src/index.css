@@ -1,0 +1,130 @@
+/* === Theme Colors === */
+:root {
+  --color-bg: #AFDDE5;
+  --color-deep: #003135;
+  --color-dark: #024950;
+  --color-accent: #964734;
+  --color-link: #0FA4AF;
+  --color-text: #002020;
+}
+
+/* === Reset & Base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* === Push Layout === */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* === Navbar === */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--color-deep);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.2s ease;
+}
+
+nav button:hover {
+  background-color: var(--color-dark);
+  border-radius: 5px;
+}
+
+/* === Footer === */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-deep);
+  color: #fff;
+  border-top: 2px solid var(--color-dark);
+}
+
+/* Ensure all icons inside footer have consistent color */
+.footer a {
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--color-link);
+}
+
+/* Force SVG icons to inherit color */
+.footer svg {
+  color: inherit;
+}
+
+/* === Image Styles === */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* === Buttons (general) === */
+button {
+  font-family: inherit;
+  background-color: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--color-dark);
+}
+
+/* === Links (generic) === */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
