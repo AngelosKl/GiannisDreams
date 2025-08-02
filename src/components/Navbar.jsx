@@ -16,7 +16,7 @@ function Navbar() {
                     objectPosition: 'center',
                     borderRadius: '50%',
                     marginBottom: '1rem',
-                    transform: 'scale(1.1)' // zooms in ~10%, about 0.5cm visually
+                    transform: 'scale(1.2)' // zooms in ~10%, about 0.5cm visually
                 }}
             />
             <button onClick={() => navigate('/')}>Home</button>
