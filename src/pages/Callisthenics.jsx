@@ -1,5 +1,7 @@
-// import myPhoto from '../assets/100.PNG';
-// import nutritionImg from '../assets/nutrition.png';
+import myPhoto from '../assets/100.PNG';
+import firstNutritionImg from '../assets/44.PNG';
+import secondNutritionImg from '../assets/4.PNG';
+
 // import trophiesImg from '../assets/competitions.png'; // optional
 
 function Callisthenics() {
@@ -14,7 +16,7 @@ function Callisthenics() {
             </section>
 
             <section className="coach-image">
-                {/* <img src={myPhoto} alt="Coach" /> */}
+                {<img src={myPhoto} alt="Coach" />}
                 <p>Training and mentoring in real action.</p>
             </section>
 
@@ -33,7 +35,10 @@ function Callisthenics() {
             <section className="nutrition">
                 <h2>Diet & Nutrition</h2>
                 <p>I also guide clients on diet principles, smart nutrition, and healthy habits. Here's a sample of the content you'll find in my coaching:</p>
-                {/* <img src={nutritionImg} alt="Nutrition Guidance" /> */}
+                {<img src={secondNutritionImg} alt="Nutrition Guidance" />}
+                <p>yeah! exactly! thats how you make gains!</p>
+                {<img src={firstNutritionImg} alt="Nutrition Guidance" />}
+
             </section>
 
             <section className="competitions">
