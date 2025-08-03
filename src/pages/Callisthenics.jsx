@@ -8,7 +8,7 @@ function Callisthenics() {
             <section className="intro">
                 <h1>The Coach</h1>
                 <p>
-                    I coach <strong>callisthenics</strong> at <a href="https://wathensgym.gr" target="_blank" rel="noopener noreferrer">W Gym</a>,
+                    I coach <strong>callisthenics</strong> at <a href="https://w-ellness.gr/" target="_blank" rel="noopener noreferrer">W Gym</a>,
                     training both kids and adults. Strength, control, movement, and discipline define our work.
                 </p>
             </section>
