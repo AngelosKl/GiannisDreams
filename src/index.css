@@ -128,3 +128,43 @@ a {
 a:visited {
   color: inherit;
 }
+
+.callisthenics-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.callisthenics-container section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.callisthenics-container img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.callisthenics-container a {
+  color: #0FA4AF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.callisthenics-container a:hover {
+  text-decoration: underline;
+}
+
+.callisthenics-container section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.callisthenics-container h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #0FA4AF;
+}
