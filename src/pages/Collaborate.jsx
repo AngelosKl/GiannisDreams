@@ -1,3 +1,6 @@
+import livePhoto from '../assets/LIVE.PNG';
+
+
 function Collaborate() {
     return (
         <div className="collaborate-container">
@@ -11,10 +14,10 @@ function Collaborate() {
                 </p>
             </section>
 
-            {/* <section className="collab-photo">
+            <section className="collab-photo">
                 <img src={livePhoto} alt="Live Performance" />
                 <p>Moments from one of my recent live music events.</p>
-            </section> */}
+            </section>
 
             <section className="collab-types">
                 <h2>Ways We Can Work Together</h2>
