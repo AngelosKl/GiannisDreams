@@ -29,7 +29,7 @@ function Navbar() {
                 <button onClick={() => navigate('/mylife')}>My Life</button>
                 <button onClick={() => navigate('/music')}>Music</button>
                 <button onClick={() => navigate('/callisthenics')}>Callisthenics</button>
-                <button onClick={() => navigate('/nextlive')}>Next Live</button>
+                <button onClick={() => navigate('/nextlive')}>Next Event</button>
                 <button onClick={() => navigate('/collaborate')}>Collaborate</button>
             </nav>
 
