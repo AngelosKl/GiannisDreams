@@ -1,10 +1,41 @@
-function Music() {
-    return (
-        <div style={{ padding: '2rem' }}>
-            <h1>Music</h1>
-            <p>Music is a big part of who I am. Here you can find what I listen to, play, or create.</p>
-        </div>
-    )
-}
+import React from 'react';
+import { FaTiktok } from 'react-icons/fa';
 
-export default Music
+const Music = () => {
+    return (
+        <div className="music-container">
+            <h1>🎧 Music Drops</h1>
+            <p className="music-quote">Για τους loyalists, αυτό είναι το δηλητήριο σας.</p>
+
+            <div className="track">
+                <h3>
+                    Kamine
+                    <a
+                        href="https://www.tiktok.com/@giannissings/video/7524811853587811606"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="tiktok-link"
+                    >
+                        <FaTiktok />
+                    </a>
+                </h3>
+            </div>
+
+            <div className="track">
+                <h3>
+                    Duck Dodgers
+                    <a
+                        href="https://www.tiktok.com/@giannissings/video/7460852395325558038"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="tiktok-link"
+                    >
+                        <FaTiktok />
+                    </a>
+                </h3>
+            </div>
+        </div>
+    );
+};
+
+export default Music;
